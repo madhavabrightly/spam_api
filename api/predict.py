@@ -4,7 +4,7 @@ import json
 from urllib.parse import parse_qs
 import io
 
-model = joblib.load('./spam_detector_model.pkl')
+model = joblib.load('./spam_detector_model1.pkl')
 
 class handler(BaseHTTPRequestHandler):
     def do_POST(self):
